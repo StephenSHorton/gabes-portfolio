@@ -1,0 +1,43 @@
+.Home-wrapper {
+  margin-bottom: 200px;
+  .logo-pic {
+    display: grid;
+    justify-content: center;
+  }
+  blockquote {
+    margin-bottom: 100px;
+  }
+  .summary {
+    margin: 0px 30% 30px 30%;
+    text-align: justify;
+  }
+  .profile-pic {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 100px;
+    padding: 0px 0px 0px 0px;
+    background-color: #3b3b3b;
+    box-shadow: inset 0px 0px 45px 10px rgba(0, 0, 0, 0.5);
+  }
+  p {
+    font-size: large;
+  }
+  li {
+    margin-top: 10px;
+    font-size: large;
+  }
+  a {
+    color: blue;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Home-wrapper {
+    .summary {
+      margin: 0px 5% 30px 5%;
+    }
+    li {
+      text-align: start;
+    }
+  }
+}
